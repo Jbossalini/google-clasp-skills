@@ -1,2 +1,16 @@
+# General
 .DS_Store
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Clasp / Google Apps Script
+.clasprc.json
+.clasp.json.bak
+build/
+dist/
+
+# Editor
+.vscode/
+.idea/

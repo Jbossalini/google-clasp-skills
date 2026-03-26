@@ -7,7 +7,7 @@ description: Build, manage, and deploy Google Apps Script projects using the cla
 
 Clasp (**C**ommand **L**ine **A**pps **S**cript **P**rojects) lets you develop Google Apps Script projects locally. You can push/pull code, manage deployments and versions, and run functions remotely — all from the terminal.
 
-> **Important**: Clasp v3.x requires **Node.js >= 22.0.0** and `clasp login` before any commands. The Apps Script API must be enabled at https://script.google.com/home/usersettings.
+> **Important**: Clasp v3.x requires **Node.js >= 18.0.0** (LTS recommended) and `clasp login` before any commands. The Apps Script API must be enabled at https://script.google.com/home/usersettings.
 
 ## Project Structure
 
@@ -226,7 +226,7 @@ In `appsscript.json`:
 
 ```bash
 DEBUG=clasp:* clasp push    # Verbose debug output
-node -v                     # Must be >= 22.0.0
+node -v                     # Must be >= 18.0.0
 ```
 
 Common issues and solutions are documented in [references/troubleshooting.md](references/troubleshooting.md).

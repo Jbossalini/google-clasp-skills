@@ -5,10 +5,8 @@ Agent skills for building and deploying Google Apps Script projects using [Googl
 ## Install
 
 ```bash
-npx skills add your-username/google-clasp-skills
+npx skills add jbossalini/google-clasp-skills
 ```
-
-> Replace `your-username` with your GitHub username after pushing.
 
 ## Skills
 
@@ -22,7 +20,7 @@ Clasp (**C**ommand **L**ine **A**pps **S**cript **P**rojects) lets you develop G
 
 ## Requirements
 
-- Node.js >= 22.0.0
+- Node.js >= 18.0.0 (LTS recommended)
 - `npm install -g @google/clasp`
 - Apps Script API enabled: https://script.google.com/home/usersettings
 - Run `clasp login` before use

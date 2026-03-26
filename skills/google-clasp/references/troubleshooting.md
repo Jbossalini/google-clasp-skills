@@ -43,7 +43,7 @@ See [run-setup.md](run-setup.md) for full setup guide.
 
 ### Node.js version error
 
-Clasp v3.x requires Node.js >= 22.0.0:
+Clasp v3.x requires Node.js >= 18.0.0 (LTS recommended):
 
 ```bash
 node -v                    # Check version

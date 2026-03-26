@@ -5,7 +5,7 @@
 ```bash
 clasp login                          # Opens browser, saves to ~/.clasprc.json
 clasp login --no-localhost           # Manual code entry (headless environments)
-clasp login --redirect-port 37473   # Custom redirect port
+clasp login --redirect-port 37473    # Custom redirect port
 clasp logout
 clasp show-authorized-user --json
 ```
